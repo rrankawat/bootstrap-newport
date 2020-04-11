@@ -16,6 +16,21 @@ body {
   margin-bottom: 0px !important;
 }
 
-.gallery {
-  margin-bottom: 10rem;
+.footer {
+  margin-top: 7rem !important;
+}
+
+.footer .footer-text {
+  font-size: small;
+  color: #999 !important;
+  letter-spacing: 0.5px;
+}
+.footer i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    margin-top: 5rem !important;
+  }
 }
